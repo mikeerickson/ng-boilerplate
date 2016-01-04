@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directive User Info</title>
+    <link rel="stylesheet" href="vendor/vendor.css" />
+    <link rel="stylesheet" href="css/app.css" />
+
+</head>
+
+<body ng-app="app" ng-cloak ng-controller="MainController as vm">
+    <h2>Directive User Info</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="row" ng-repeat="user in vm.erickson">
+                    <div ng-include src="'templates/user-info.template.html'"></div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="row" ng-repeat="user in vm.buffington">
+                    <div ng-include src="'templates/user-info.template.html'"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="js/angular-gravatar.js"></script>
+
+
+    <script src="js/app-directive.js"></script>
+    <script src="js/user-info.directive.js"></script>
+    <script src="js/user-info.controller.js"></script>
+    <script src="js/user-info.factory.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "shilo"
+    },
+    {
+      "id": 2,
+      "name": "honu"
+    },
+    {
+      "id": 3,
+      "name": "Gunner"
+    }
+  ],
+  "people": [
+    {
+      "id": 1,
+      "fname": "Mike",
+      "lname": "Erickson"
+    },
+    {
+      "id": 2,
+      "fname": "Kira",
+      "lname": "Erickson"
+    },
+    {
+      "id": 3,
+      "fname": "Joelle",
+      "lname": "Asoau"
+    },
+    {
+      "id": 4,
+      "fname": "Brady",
+      "lname": "Erickson"
+    },
+    {
+      "id": 5,
+      "fname": "Bailey",
+      "lname": "Erickson"
+    },
+    {
+      "id": 6,
+      "fname": "Trevor",
+      "lname": "Erickson"
+    }
+  ]
+}

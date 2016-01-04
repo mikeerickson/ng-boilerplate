@@ -1,0 +1,35 @@
+[
+  {
+    "fname": "Mike",
+    "lname": "Erickson",
+    "role": "Father",
+    "email": "mike.erickson@mac.com"
+  },
+  {
+    "fname": "Joelle",
+    "lname": "Asoau (Erickson)",
+    "role": "Daughter",
+    "email": "joelle.erickson@mac.com"
+  },
+  {
+    "fname": "Brady",
+    "lname": "Erickson",
+    "role": "Son",
+    "email": "codedungeon@gmail.com"
+  },
+  {
+    "fname": "Trevor",
+    "lname": "Erickson",
+    "role": "Son",
+    "email": "mike.erickson66@gmail.com"
+  },{
+    "fname": "Nate",
+    "lname": "Asoau",
+    "role": "Son",
+    "email": "nasoau@usmc.gov"
+  },{
+  "fname": "Alaya",
+  "lname": "Asoau",
+  "role": "Granddaughter",
+  "email": "joelle.erickson@mac.com"
+}]

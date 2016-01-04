@@ -1,0 +1,27 @@
+<!--
+  Dependencies
+  * angular-gravatar (https://github.com/wallin/angular-gravatar)
+-->
+
+<h3>{{ user.role }}</h3>
+<div class="col-md-3">
+  <img gravatar-src="'{{user.email}}'" gravatar-size="100">
+</div>
+<div class="col-sm-9">
+  <fieldset class="form-group">
+      <label for="fname">First: </label>
+      <input class="form-control" name="fname" type="text" ng-model="user.fname">
+
+      <label for="lname">Last: </label>
+      <input class="form-control" name="lname" type="text" ng-model="user.lname">
+
+      <label for="email">EMail: </label>
+      <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">@</span>
+          <input class="form-control" name="email" type="text" ng-model="user.email">
+      </div>
+      <div>
+          <user-info fname="{{user.fname}}" lname="{{user.lname}}"></user-info>
+      </div>
+  </fieldset>
+</div>

@@ -1,0 +1,87 @@
+[
+  {
+    "fieldObject": {
+      "id": 10013
+    },
+    "label": "Accession Number"
+  },
+  {
+    "label": "Client Information",
+    "menu": [
+      {
+        "fieldObject": {
+          "id": 10219
+        },
+        "label": "Contact Id"
+      },
+      {
+        "fieldObject": {
+          "id": 10185
+        },
+        "label": "Client Name"
+      },
+      {
+        "fieldObject": {
+          "id": 11812
+        },
+        "label": "Fax Number"
+      }
+    ]
+  },
+  {
+    "label": "Patient Information",
+    "menu": [
+      {
+        "fieldObject": {
+          "id": 19121
+        },
+        "label": "Age"
+      },
+      {
+        "fieldObject": {
+          "id": 19242
+        },
+        "label": "Gender"
+      },
+      {
+        "label": "Specimen",
+        "menu": [
+          {
+            "label": "Name",
+            "menu": [
+              {
+                "fieldObject": {
+                  "id": 35342
+                },
+                "label": "First Name"
+              },
+              {
+                "label": "Last Name",
+                "menu": [
+                  {
+                    "fieldObject": {
+                      "id": 45321
+                    },
+                    "label": "Maiden Name"
+                  },
+                  {
+                    "fieldObject": {
+                      "id": 47431
+                    },
+                    "label": "Married Name"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fieldObject": {
+              "id": 24921
+            },
+            "label": "Received Date"
+          }
+        ]
+      }
+    ]
+  }
+]

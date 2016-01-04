@@ -1,0 +1,13 @@
+/*
+ * Simple Application Style
+ * Bigger applications will build this from SASS files, via gulp task
+*/
+
+body {
+  margin: 20px;
+}
+
+footer, .footer {
+  text-align: center;
+  font-size: 12px;
+}

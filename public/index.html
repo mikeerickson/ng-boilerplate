@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+    <title>Simple Angular Boilerplate</title>
+      <link rel="stylesheet" href="vendor/vendor.css" />
+      <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body ng-app="app">
+    <div class="container-fluid">
+
+        <header>
+            <img src="images/ambry_logo.png" alt=""/>
+            <h1>Angular Boilerplate</h1>
+            <hr/>
+        </header>
+
+        <content>
+            <div class="row">
+                <div class="col-md-4" ng-controller="ColumnOneController as col1Ctrl">
+                    <h1>Content</h1>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque, delectus doloremque enim esse, eum ex, exercitationem illum nesciunt nobis non nulla officia placeat provident quaerat quos sed totam vitae.
+                    </p>
+                    <button class="btn btn-primary" ng-click="col1Ctrl.sayHello()">Say Hello</button>
+
+                    <script type="text/ng-template" id="myModalContent.html">
+                        <div class="modal-header">
+                            <h3 class="modal-title">I'm a modal!</h3>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li ng-repeat="item in items">
+                                    <a href="#" ng-click="$event.preventDefault(); selected.item = item">{{ item }}</a>
+                                </li>
+                            </ul>
+                            Selected: <b>{{ selected.item }}</b>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+                            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+                        </div>
+                    </script>
+
+                </div>
+                <div class="col-md-4">
+                    <h1>Content2</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque, delectus doloremque enim esse, eum ex, exercitationem illum nesciunt nobis non nulla officia placeat provident quaerat quos sed totam vitae.
+                    </p>
+                    <button type="button" class="btn btn-default" ng-click="col1Ctrl.open('sm')">Small modal</button>
+                </div>
+                <div class="col-md-4">
+                    <h1>Content3</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque, delectus doloremque enim esse, eum ex, exercitationem illum nesciunt nobis non nulla officia placeat provident quaerat quos sed totam vitae.
+                    </p>
+                </div>
+            </div>
+        </content>
+
+        <footer>
+            <hr />
+            &copy; 2015 - Mike Erickson. All Rights Reserved.
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="vendor/vendor.js"></script>
+    <script type="text/javascript" src="js/build.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+</html>

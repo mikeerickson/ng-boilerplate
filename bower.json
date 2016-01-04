@@ -1,0 +1,31 @@
+{
+  "name": "ng-boilerplate",
+  "description": "Simple Angular Boilerplate",
+  "main": "",
+  "authors": [
+    "Michael S Erickson"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "boilerplate",
+    "gulp",
+    "yeoman"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  }
+}

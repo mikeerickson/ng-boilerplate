@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="917cc93e-864a-4626-9db8-d7f86fecd8f3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/ambry_logo.png" afterPath="$PROJECT_DIR$/public/images/ambry_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/ambry_logo.png" afterPath="$PROJECT_DIR$/src/images/ambry_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="$PROJECT_DIR$/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_karma.conf.js" afterPath="$PROJECT_DIR$/_karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma_html/report-summary/index.html" afterPath="$PROJECT_DIR$/karma_html/report-summary/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pkg.json" afterPath="$PROJECT_DIR$/pkg.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/data/buffington.json" afterPath="$PROJECT_DIR$/public/data/buffington.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/data/erickson.json" afterPath="$PROJECT_DIR$/public/data/erickson.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/angular-gravatar.js" afterPath="$PROJECT_DIR$/public/js/angular-gravatar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app-directive.js" afterPath="$PROJECT_DIR$/public/js/app-directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/sparkline.directive.js" afterPath="$PROJECT_DIR$/public/js/sparkline.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/user-info.controller.js" afterPath="$PROJECT_DIR$/public/js/user-info.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/user-info.directive.js" afterPath="$PROJECT_DIR$/public/js/user-info.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/user-info.factory.js" afterPath="$PROJECT_DIR$/public/js/user-info.factory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/selectahead.html" afterPath="$PROJECT_DIR$/public/selectahead.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/user-info.template.html" afterPath="$PROJECT_DIR$/public/templates/user-info.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/user-info.html" afterPath="$PROJECT_DIR$/public/user-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/vendor.css" afterPath="$PROJECT_DIR$/public/vendor/vendor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/vendor/vendor.js" afterPath="$PROJECT_DIR$/public/vendor/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/browser/karma-test.spec.js" afterPath="$PROJECT_DIR$/specs/browser/karma-test.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/hello-world.spec.js" afterPath="$PROJECT_DIR$/specs/hello-world.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/sample.spec.js" afterPath="$PROJECT_DIR$/specs/sample.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.js" afterPath="$PROJECT_DIR$/src/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/columnOne.controller.js" afterPath="$PROJECT_DIR$/src/app/columnOne.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/people/specs/people.service.spec.js" afterPath="$PROJECT_DIR$/src/app/people/specs/people.service.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/clean.js" afterPath="$PROJECT_DIR$/tasks/clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/compile.js" afterPath="$PROJECT_DIR$/tasks/compile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/config.js" afterPath="$PROJECT_DIR$/tasks/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/deploy.js" afterPath="$PROJECT_DIR$/tasks/deploy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/hint.js" afterPath="$PROJECT_DIR$/tasks/hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/tasklist.js" afterPath="$PROJECT_DIR$/tasks/tasklist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/test.js" afterPath="$PROJECT_DIR$/tasks/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/todo.js" afterPath="$PROJECT_DIR$/tasks/todo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/utils/cd-utils.js" afterPath="$PROJECT_DIR$/tasks/utils/cd-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/utils/handleErrors.js" afterPath="$PROJECT_DIR$/tasks/utils/handleErrors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/vendor.js" afterPath="$PROJECT_DIR$/tasks/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/watch.js" afterPath="$PROJECT_DIR$/tasks/watch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/build-menu.js" afterPath="$PROJECT_DIR$/test/build-menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/console-test.js" afterPath="$PROJECT_DIR$/test/console-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/data/fieldMenu.json" afterPath="$PROJECT_DIR$/test/data/fieldMenu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/data/find.js" afterPath="$PROJECT_DIR$/test/data/find.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/data/test.json" afterPath="$PROJECT_DIR$/test/data/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dump.js" afterPath="$PROJECT_DIR$/test/dump.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/find.js" afterPath="$PROJECT_DIR$/test/find.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/flatten-array.js" afterPath="$PROJECT_DIR$/test/flatten-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/flatten.js" afterPath="$PROJECT_DIR$/test/flatten.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/flatten2.js" afterPath="$PROJECT_DIR$/test/flatten2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test2.js" afterPath="$PROJECT_DIR$/test/test2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/to-json.js" afterPath="$PROJECT_DIR$/test/to-json.js" />
+    </list>
+    <ignored path="ng-boilerplate.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ng-boilerplate" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="people.service.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/people/specs/people.service.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#560#1240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#145#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#297#2766#0" expanded="true" />
+                <element signature="e#2498#2584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/specs/sample.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
+              <folding>
+                <element signature="e#159#446#0" expanded="true" />
+                <element signature="e#407#441#0" expanded="true" />
+                <element signature="e#547#1066#0" expanded="true" />
+                <element signature="e#565#1060#0" expanded="true" />
+                <element signature="e#1864#2031#0" expanded="true" />
+                <element signature="e#2110#2285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/people/specs/people.service.spec.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/tasks/config.js" />
+        <option value="$PROJECT_DIR$/tasks/test.js" />
+        <option value="$PROJECT_DIR$/specs/sample.spec.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-boilerplate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="917cc93e-864a-4626-9db8-d7f86fecd8f3" name="Default" comment="" />
+      <created>1454625952739</created>
+      <option name="number" value="Default" />
+      <updated>1454625952739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1918" height="1030" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17516269" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3171008" sideWeight="0.5043243" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34314835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33786848" sideWeight="0.49567568" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/people/specs/people.service.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#560#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#297#2766#0" expanded="true" />
+            <element signature="e#2498#2584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#145#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/sample.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="85" column="64" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
+          <folding>
+            <element signature="e#159#446#0" expanded="true" />
+            <element signature="e#407#441#0" expanded="true" />
+            <element signature="e#547#1066#0" expanded="true" />
+            <element signature="e#565#1060#0" expanded="true" />
+            <element signature="e#1864#2031#0" expanded="true" />
+            <element signature="e#2110#2285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

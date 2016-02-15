@@ -41,12 +41,12 @@ describe("People Module", function() {
     it('should return a value for message count',function(){
       dataservice.getMessageCount()
         .then(function(data){
-            expect(data).to.equal(72)
+            expect(data).to.equal(72);
         });
       $rootScope.$apply();
     });
 
-    it('should not created successfully', function(){
+    it('should not be created successfully', function(){
       expect(controller).to.not.be.defined;
     });
 
@@ -56,17 +56,39 @@ describe("People Module", function() {
         expect(data).to.exist;
         assert.isArray(data);
         expect(data.length).to.be.at.least(6);
-          expect(data[0].fname).to.equal('Mike');
-          expect(data[5].fname).to.equal('Trevor');
+        expect(data[0].fname).to.equal('Mike');
+        expect(data[5].fname).to.equal('Trevor');
         });
       $httpBackend.flush();
       });
 
-    it('should report error if server fails access people', function(){
+    it('should access /dogs endpoint, returning mock data', function() {
+      $httpBackend.when('GET', '/dogs').respond(200, dogs);
+      peopleService.getDogs().then(function(data) {
+        expect(data).to.exist;
+        expect(data.length).to.be.at.least(3);
+        expect(data[2].name).to.equal('Gunner');
+        assert.isArray(data);
+      });
+      $httpBackend.flush();
+    });
+
+    it('should report error if server fails access people', function() {
       var mockError = { status: 'error', description: 'Mock Error' };
 
       $httpBackend.when('GET', '/people').respond(500, mockError);
       peopleService.getPeople().catch(function(data){
+        expect(data).to.exist;
+        expect(data.status).to.equal('error');
+      });
+      $httpBackend.flush();
+    });
+
+    it('should report error if server fails access dogs', function() {
+      var mockError = { status: 'error', description: 'Mock Error' };
+
+      $httpBackend.when('GET', '/dogs').respond(500, mockError);
+      peopleService.getDogs().catch(function(data){
         expect(data).to.exist;
         expect(data.status).to.equal('error');
       });

@@ -71,8 +71,8 @@
       }
     },
     test: {
-      mocha: ['./specs/**/*.spec.js'],
-      karma: ['./src/app/**/*.spec.js']
+      mocha: ['./specs/**/*.spec.js', './specs/**/*Spec.js'],
+      karma: ['./src/app/**/*.spec.js', './src/app/**/*Spec.js']
     },
 
     app: {

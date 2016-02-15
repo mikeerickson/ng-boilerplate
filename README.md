@@ -30,7 +30,7 @@ There are no tests for this module at this time.
 
 ### License
 
-Copyright (c) 2015 Mike Erickson
+Copyright (c) 2015-16 Mike Erickson
 Released under the MIT license
 
 ### Credits

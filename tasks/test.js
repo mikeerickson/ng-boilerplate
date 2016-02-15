@@ -6,7 +6,6 @@ var config = require('./config');
 
 gulp.task('test', function() {
   return gulp.src('./specs/*.spec.js')
-    //.pipe(mocha());
     .pipe(mocha({reporter: 'mocha-unfunk-reporter'}));
 });
 

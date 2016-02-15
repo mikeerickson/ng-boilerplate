@@ -9,7 +9,7 @@ var mockData = (function() {
     return [
       { name: 'Shilo' },
       { name: 'Honu' },
-      { name: 'Gunner '}
+      { name: 'Gunner'}
     ];
   }
 

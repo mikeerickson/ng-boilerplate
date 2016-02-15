@@ -1,5 +1,5 @@
 // PEOPLE SERVICE SPEC
-// - Executed via Karma Runner, dont require depedencies
+// - Executed via Karma Runner, don't require dependencies
 // =============================================================================
 
 /*global require*/
@@ -21,7 +21,6 @@ describe("People Specs", function() {
   it('should do something', function(){
     expect(true).to.be.true;
   });
-
 
 });
 

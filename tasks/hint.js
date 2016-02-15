@@ -18,6 +18,9 @@
   console.init({logToFile: true, timestamp: true, showPipeFile: true});
 
   gulp.task('hint', function() {
+
+    // if you need to hint specs, adjust config.app.src as it contains '!./src/app/**/*.spec.js'
+    // which will override `config.test.karma`
     var files  = [].concat(config.app.src, config.app.tasks, config.test.mocha, config.test.karma);
 
     return gulp.src(files)

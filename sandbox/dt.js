@@ -1,3 +1,8 @@
+// dt.js
+// merickson <codedungeon@gmail.com>
+// 2/17/2016 3:32 PM
+// =============================================================================
+
 var moment = require('moment');
 
 var now = new Date();

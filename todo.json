@@ -1,0 +1,20 @@
+[
+  {
+    "file": "app/app.module.js",
+    "kind": "TODO",
+    "line": 5,
+    "text": "What other modules should be included out of box"
+  },
+  {
+    "file": "clean.js",
+    "kind": "TODO",
+    "line": 22,
+    "text": "This should clear the contents but not the actual folder"
+  },
+  {
+    "file": "clean.js",
+    "kind": "TODO",
+    "line": 23,
+    "text": "What does this do"
+  }
+]

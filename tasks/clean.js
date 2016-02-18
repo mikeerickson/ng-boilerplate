@@ -19,7 +19,7 @@
     showPipeFile: false
   });
 
-// TODO: This should clear the contents but not the actual folder
+  // TODO: This should clear the contents but not the actual folder
   gulp.task('clean:vendor', function(cb){
     del(config.vendor.dest);
     console.success(config.vendor.dest + ' Cleaned...');

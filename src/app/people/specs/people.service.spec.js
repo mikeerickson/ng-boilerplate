@@ -18,10 +18,6 @@ describe("People Specs", function() {
     expect(true).to.be.true;
   });
 
-  it('should do something', function(){
-    expect(true).to.be.true;
-  });
-
 });
 
 describe('Sample Spec w/ Chai Should', function() {

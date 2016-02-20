@@ -19,7 +19,7 @@
   // load karma.conf.js config obpect
   var karmaParseConfig = require('karma/lib/config').parseConfig;
   var config           = karmaParseConfig(appRoot + '/karma.conf.js', {});
-  var openReport       = args.indexOf('--open') >= 0 || (config.htmlReporter.openReporter && utils.isOSX);
+  var openReport       = args.indexOf('--open') >= 0 || (config.htmlReporter.openReporter && utils.isOSX());
 
 
   gulp.task('karma', function (done) {
@@ -35,12 +35,7 @@
     });
 
     server.on('run_complete', function (browsers, results){
-      if (results.failed) {
-        console.chalkline.red();
-      } else {
-        console.chalkline.green();
-      }
-
+      results.failed ? console.chalkline.red() : console.chalkline.green();
       if (openReport) {
         run('open ./karma_html/report-summary/index.html').exec();
       }

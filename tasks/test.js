@@ -4,8 +4,10 @@ var gulp   = require('gulp');
 var mocha  = require('gulp-mocha');
 var config = require('./config');
 
+var testFiles = [].concat(config.test.mocha);
+
 gulp.task('test', function() {
-  return gulp.src('./specs/*.spec.js')
+  return gulp.src(testFiles)
     .pipe(mocha({reporter: 'mocha-unfunk-reporter'}));
 });
 

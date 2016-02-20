@@ -10,6 +10,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress', 'mocha', 'mocha-clean', 'html', 'htmlalt'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
+    // html - https://www.npmjs.com/package/karma-html-reporter
     reporters: ['mocha','html'],
 
     // this section is configuration for `html` AND `htmlalt` reporters
@@ -59,7 +60,8 @@ module.exports = function(config) {
       'src/app/dataservice.js',
       'src/app/people/people.controller.js',
       'src/app/people/people.service.js',
-      'src/app/people/specs/**/*spec.js'
+      'src/app/people/specs/**/*spec.js',
+      'src/app/people/specs/**/*Spec.js'
     ],
 
 
@@ -93,7 +95,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode

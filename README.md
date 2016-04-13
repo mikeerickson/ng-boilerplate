@@ -15,7 +15,7 @@ Simple Angular Boilerplate (only include base libraries for testing various Angu
   * gulp-todo (creates TODO.md file)
   * gulp-ignore (used by todo task)
   * ng-describe (used by testing code)
-  * gulp-copy, del, run-sequence (used by vendor task)
+  * gulp-copy, del, run-sequence (used by vendor task) 
   
 - bower install will install additional dependencies covered via `npm install`
   * lodash (handles all our array/object management)
@@ -30,7 +30,7 @@ There are no tests for this module at this time.
 
 ### License
 
-Copyright (c) 2015-16 Mike Erickson
+Copyright (c) 2016 Mike Erickson
 Released under the MIT license
 
 ### Credits

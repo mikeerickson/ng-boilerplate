@@ -26,7 +26,7 @@ module.exports = function(config) {
       namedFiles: false, // name files instead of creating sub-directories
       pageTitle: 'ng-boilerplate', // page title for reports; browser info by default
       urlFriendlyName: false, // simply replaces spaces with _ for files/dirs
-      reportName: 'report-summary', // report summary filename; browser info by default
+      reportName: 'report-summary', // report summary filenameÍ; browser info by default
       openReporter: true,
 
 
@@ -95,7 +95,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['Chrome','PhantomJS2'],
 
 
     // Continuous Integration mode

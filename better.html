@@ -1,0 +1,116 @@
+<ul id="stats"><li class="progress"><canvas width="40" height="40"></canvas></li><li class="passes">passes: <em>17</em></li><li class="failures">failures: <em>0</em></li><li class="duration">duration: <em>0.044</em>s</li></ul>
+<ul id="report">    <li class="suite">
+      <h1>sanity check chai.assert and chai.expect working</h1>
+      <ul>
+        <li class="test pass">
+          <h2>should test positive assertion<span class="duration">1ms</span></h2>
+          <pre style="display: none;"><code>assert.equal((1+2), 3, 'one plus two is three');</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should test negative assertion<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>assert.notEqual(true, false);</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should use expect asserting<span class="duration">1ms</span></h2>
+          <pre style="display: none;"><code>expect((1+2)).to.equal(3);</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should test negative expect<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>expect(true).to.not.equal(false);</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should test negative expect<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>expect(true).to.not.equal(false);</code></pre>
+        </li>
+      </ul>
+    </li>
+    <li class="suite">
+      <h1>Testing Promises</h1>
+      <ul>
+        <li class="test pass">
+          <h2>should do something good with promises now<span class="duration">3ms</span></h2>
+          <pre style="display: none;"><code>var promise = new Promise(function (resolve, reject) {
+      fs.readFile('./todo.json', (err, data) =&gt; {
+        err ? reject(err) : resolve(data);
+      });
+    });
+
+    promise.then(function(data){
+      expect.data.to.exists;
+    }).catch(function(err){
+      expect.err.to.exists;
+      msg.error(err);
+    });
+
+    done();</code></pre>
+        </li>
+      </ul>
+    </li>
+    <li class="suite">
+      <h1>Sample Spec w/ Chai Expect</h1>
+      <ul>
+        <li class="test pass">
+          <h2>expect to fail<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>expect(false).to.be.false;</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>expect to pass<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>expect(true).to.be.true;</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>expect it to be true<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>expect(true).to.be.true;</code></pre>
+        </li>
+      </ul>
+    </li>
+    <li class="suite">
+      <h1>Sample Spec w/ Chai Should</h1>
+      <ul>
+        <li class="test pass">
+          <h2>should be a string<span class="duration">2ms</span></h2>
+          <pre style="display: none;"><code>var foo = 'test';
+foo.should.be.a('string');</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should not be a string<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>var foo = {};
+foo.should.not.be.a('string');</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should perform various tests<span class="duration">2ms</span></h2>
+          <pre style="display: none;"><code>var foo = 'bar';
+var beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
+
+foo.should.be.a('string');
+foo.should.equal('bar');
+foo.should.have.length(3);</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should perform test on a object<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>var beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
+beverages.should.have.property('tea').with.length(3);</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should verify family object<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>familyObj[0].should.have.property('fname');</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should have family members<span class="duration">1ms</span></h2>
+          <pre style="display: none;"><code>var joelle = familyObj[2];
+joelle.should.have.property('lname', 'Asoau');
+var alaya = familyObj[7];
+alaya.should.have.property('lname', 'Asoau');</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should successfully find family member (Kira Erickson)<span class="duration">2ms</span></h2>
+          <pre style="display: none;"><code>_.findKey(familyObj, function(o) { return o.fname === 'Kira'; }).should.be.ok;
+_.findKey(familyObj, function(o) { return o.lname === 'Erickson'; }).should.be.ok;</code></pre>
+        </li>
+        <li class="test pass">
+          <h2>should successfully find family member (Alaya Asoau)<span class="duration">0ms</span></h2>
+          <pre style="display: none;"><code>_.findKey(familyObj, function(o) { return o.fname === 'Alaya'; }).should.be.ok;
+_.findKey(familyObj, function(o) { return o.lname === 'Asoau'; }).should.be.ok;</code></pre>
+        </li>
+      </ul>
+    </li>
+<ul>

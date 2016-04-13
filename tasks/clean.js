@@ -8,12 +8,12 @@
   var gulp       = require('gulp');
   var del        = require('del');
   var config     = require('./config');
-  var console    = require('gulp-messenger');
+  var console    = require('gulp-messenger'); 
   var stripDebug = require('gulp-strip-debug');
   var plumber    = require('gulp-plumber');
   var handleErrors = require('./utils/handleErrors');
 
-  console.init({
+  console.setOptions({
     timestamp: true,
     logToFile: true,
     showPipeFile: false

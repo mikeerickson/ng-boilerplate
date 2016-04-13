@@ -21,7 +21,8 @@
 
     // if you need to hint specs, adjust config.app.src as it contains '!./src/app/**/*.spec.js'
     // which will override `config.test.karma`
-    var files  = [].concat(config.app.src, config.app.tasks, config.test.mocha, config.test.karma);
+    // var files = [].concat(config.app.src, config.app.tasks, config.test.mocha, config.test.karma);
+    var files = [].concat(config.app.src, config.app.tasks);
 
     return gulp.src(files)
       .on('error', handleErrors)

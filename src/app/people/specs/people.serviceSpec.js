@@ -3,7 +3,7 @@
 // =============================================================================
 
 /*global require*/
-
+/*global expect*/
 
 describe("People Specs", function() {
 

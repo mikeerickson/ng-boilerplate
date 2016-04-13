@@ -6,10 +6,11 @@ var config = require('./config');
 
 var testFiles = [].concat(config.test.mocha);
 
-gulp.task('test', function() {
+// reporter: 'mocha-unfunk-reporter'
+gulp.task('mocha', function() {
   return gulp.src(testFiles)
-    .pipe(mocha({reporter: 'mocha-unfunk-reporter'}));
+    .pipe(mocha({reporter: 'spec'}));
 });
 
 // alias
-gulp.task('mocha', ['test']);
+gulp.task('test', ['mocha']);
